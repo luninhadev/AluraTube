@@ -2,6 +2,38 @@
     "name": "Luna Almeida (DevLuninha)",
     "job": "Student Front-end",
     "github": "luninhadev",
+    "favorite": [
+        {
+            "github": "luninhadev",
+            "name": "@luninhadev",
+            "url": "https://github.com/luninhadev"
+        },
+        {
+            "github": "omariosouto",
+            "name": "@omariosouto",
+            "url": "https://github.com/omariosouto"
+        },
+        {
+            "github": "nayannebatista",
+            "name": "@Nay",
+            "url": "https://github.com/nayannebatista"
+        },
+        {
+            "github": "DaniDjunior",
+            "name": "@Daniele Dorval",
+            "url": "https://github.com/DaniDjunior"
+        },
+        {
+            "github": "misterio77",
+            "name": "@Gabriel Fontes",
+            "url": "https://github.com/misterio77"
+        },
+        {
+            "github": "kahlis",
+            "name": "@kahlis",
+            "url": "https://github.com/kahlis"
+        }
+    ],
     "playList": {
         "jogos": [
             {
