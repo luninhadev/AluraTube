@@ -2,7 +2,7 @@ import React from "react";
 import config from "../config.json"
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSRESET";
-import Menu from "../src/components/menu";
+import Menu from "../src/components/menu/index";
 import { StyledTimeline } from "../src/components/Timeline"
 import banner from "./nasa.jpg"
 
