@@ -58,8 +58,7 @@ const StyledHeader = styled.div`
         margin-top: 56px;
         position: relative;
         width: 100vw;
-        height:423px;
-        background-size: cover;
+        height:350px;
         border-radius: 0;
         background-position: center;
         object-fit: cover;
@@ -123,6 +122,7 @@ const Styledfavorite = styled.div`
         justify-content: center;
     }
 `;
+
 function Timeline({ searchValue, ...propriedades }) {
     //console.log("Dentro do componente", props.playList);
     const playListName = Object.keys(propriedades.playList)
