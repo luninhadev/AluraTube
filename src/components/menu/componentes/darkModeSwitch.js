@@ -40,7 +40,7 @@ export default function DarkModeSwitch() {
   const contexto = React.useContext(ColorModeContext);
   console.log("Contexto dentro do DarkMode", contexto);
 
-  // Guardar o Evento 
+  // Guardar o Evento  
   // Monitorar o evento para fazer o setState
   return (
     <StyledSwitch>

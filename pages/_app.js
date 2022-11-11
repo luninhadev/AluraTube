@@ -21,7 +21,7 @@ const theme = {
 };
 
 // _app.js -> Definições globais do NextJS
-// ThemeProvider
+// ThemeProvider 
 // ThemeProvider -> Prove o tema para o app todo
 // ColorModeProvider -> Prove o state de light ou dark para todo mundo 
 
