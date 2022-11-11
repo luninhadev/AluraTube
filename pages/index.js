@@ -58,9 +58,9 @@ const StyledHeader = styled.div`
         margin-top: 56px;
         position: relative;
         width: 100vw;
-        height:350px;
+        height: 300px;
         border-radius: 0;
-        background-position: center;
+        
         object-fit: cover;
         background-clip: border-box;
     }
@@ -100,13 +100,12 @@ const Styledfavorite = styled.div`
         margin-left: 15px;
     }
     .lista{
-        margin-left: 20px;
-        gap: 45px;
+        //overflow-y: scroll;
+        gap: 4px;
         display: flex;
-        justify-content: left;
+        justify-content: center;
     }
     .div1{
-        width: 67px;
         text-align: center;
     }
     .thumb {
@@ -131,6 +130,7 @@ function Timeline({ searchValue, ...propriedades }) {
     // o react aceita tudo que é retorno por expressão
     return (
         // pode ser escrita assim: {playListName.map(function(playListName) {
+
         <StyledTimeline>
             {playListName.map((playListName) => {
                 const videos = propriedades.playList[playListName]
