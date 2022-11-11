@@ -1,22 +1,18 @@
 import React from "react";
 import config from "../config.json"
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSRESET";
 import Menu from "../src/components/menu/index";
 import { StyledTimeline } from "../src/components/Timeline"
 import banner from "./nasa.jpg"
 
 function HomePage() {
-    const estilosDaHomePage = {
-        //backgroundColor: "red" 
-    };
+
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     //console.log(config.playList);
 
     return (
         <>
-            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -47,6 +43,8 @@ function Menu() {
 
 /* a variável se torna um componente div com atributos css */
 const StyledHeader = styled.div`
+
+    background-color: ${({ theme}) => theme.backgroundLevel1};
 
     img{
         margin-top: 0px;
@@ -122,7 +120,7 @@ const Styledfavorite = styled.div`
     }
     .nome{
         font-size: 11px;
-        color: black;
+        color: ${({ theme}) => theme.textColorBase};
         text-align: center;
         display: flex;
         justify-content: center;
