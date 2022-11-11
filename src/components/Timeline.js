@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
   flex: 1;
-  width: 100%;
+  width: 100vw;
   padding: 16px;
   overflow: hidden;
   h2 {
