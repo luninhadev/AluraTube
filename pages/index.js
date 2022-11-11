@@ -101,7 +101,6 @@ const Styledfavorite = styled.div`
         margin-left: 15px;
     }
     .lista{
-        overflow-y: scroll;
         gap: 5px;
         display: flex;
         
