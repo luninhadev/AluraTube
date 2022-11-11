@@ -97,24 +97,29 @@ function Header() {
 //Construindo a estilização do favoritos
 const Styledfavorite = styled.div`
     .h2{
+        padding: 0px;
         margin-left: 15px;
     }
     .lista{
-        //overflow-y: scroll;
-        gap: 4px;
+        overflow-y: scroll;
+        gap: 5px;
         display: flex;
-        justify-content: center;
+        
     }
     .div1{
+        position: border-box;
+        width: 80px;
+        height: 80px;
         text-align: center;
     }
     .thumb {
+        width: 50px;
+        height: 50px;  
         align-items: center;
         border-radius: 50%;
-        height: 60px;
-        width: 60px;
     }
     .nome{
+        font-size: 11px;
         color: black;
         text-align: center;
         display: flex;
