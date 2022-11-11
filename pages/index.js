@@ -96,19 +96,22 @@ function Header() {
 
 //Construindo a estilização do favoritos
 const Styledfavorite = styled.div`
+
     .h2{
         padding: 0px;
         margin-left: 15px;
     }
     .lista{
-        gap: 5px;
+        overflow-x: scroll;
+        height: 100px;
+        gap: 30px;
         display: flex;
-        
     }
-    .div1{
-        position: border-box;
-        width: 80px;
-        height: 80px;
+    .divv{
+        position: center;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
         text-align: center;
     }
     .thumb {
@@ -124,6 +127,7 @@ const Styledfavorite = styled.div`
         display: flex;
         justify-content: center;
     }
+    
 `;
 
 function Timeline({ searchValue, ...propriedades }) {
@@ -168,9 +172,10 @@ function Timeline({ searchValue, ...propriedades }) {
                     {config.favorite.map(function (favorito) {
                         return (
                             // o favorito recebeu os indices do array
-                            <div key={favorito.url} className="div1" >
+                            <div key={favorito.url} className="divv" >
                                 <a href={favorito.url}>
                                     <img className="thumb" src={`https://github.com/${favorito.github}.png`} />
+                                    
                                     <h5 className="nome">{favorito.name}</h5>
                                 </a>
                             </div>
